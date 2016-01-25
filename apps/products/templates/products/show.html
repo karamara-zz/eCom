@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Products Detail</title>
+</head>
+<body>
+	<div class='container'>
+		<div class='row'>
+			<div class = 'col-sm-11'>
+				<h2>Product Name</h2>
+			</div>
+			<div class='col-sm-1'>
+				<a href="/products">Go to Products</a>
+			</div>
+		</div>
+		<div class ='row'>
+			<div id = 'addProduct' class='col-sm-6 col-sm-offset-1'>
+				<form action="">
+					<p>Manufacturer/Brand: 
+						<select name="brand">
+							<option value="KennethCole">KennethCole</option>
+							<option value="Gap">Gap</option>
+							<option value="Ruby Project">Ruby Project</option>
+							<option value="Samsung">Samsung</option>
+						</select></p>
+					<p>Product Name: <input type="text" name ='productName'></p>
+					<p>Price ($): <input type="text" name='price'></p>
+					<p>Description: <textarea name="decription" id="" cols="50" rows="10"></textarea></p>
+					<button type='submit' class='btn btn-primary'>Update</button>
+					<a href="/delete"><button class='btn btn-danger'>Delete</button></a>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
